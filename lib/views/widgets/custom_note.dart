@@ -7,21 +7,26 @@ class CustomNote extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      width: 400,
+      height: 200,
       decoration: BoxDecoration(
+        color: const Color.fromARGB(116, 231, 191, 71),
         borderRadius: BorderRadius.circular(16),
-
       ),
-      child:CustomListTile(
+      child: CustomListTile(
         title: const Text(
-        'Hello in My App',
-        style: TextStyle(
-        fontSize: 25,
-        fontWeight: FontWeight.bold,
-        color: Colors.black  
+          'Hello in My App',
+          style: TextStyle(
+              fontSize: 25, fontWeight: FontWeight.bold, color: Colors.white),
         ),
-
+        subtitle: const Text(
+          'create by abd_EL_Rahman mahfouz',
+          style: TextStyle(
+            fontSize: 14,
+            fontWeight: FontWeight.bold,
+            color: Colors.white,
+          ),
         ),
-
       ),
     );
   }
