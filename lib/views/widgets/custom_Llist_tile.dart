@@ -9,7 +9,9 @@ class CustomListTile extends StatelessWidget {
     this.leading,
     this.title,
     this.subtitle,
+    this.trailing,
   });
+  Widget? trailing;
   Widget? title;
   Widget? subtitle;
   Widget? leading;
@@ -21,6 +23,7 @@ class CustomListTile extends StatelessWidget {
       subtitle: subtitle,
       leading: leading,
       onTap: onTap,
+      trailing: trailing,
     );
   }
 }

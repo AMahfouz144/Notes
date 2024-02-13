@@ -14,6 +14,11 @@ class CustomNote extends StatelessWidget {
         borderRadius: BorderRadius.circular(16),
       ),
       child: CustomListTile(
+        trailing: const Icon(
+          Icons.delete,
+          color: Colors.black,
+          size: 30,
+        ),
         title: const Text(
           'Hello in My App',
           style: TextStyle(
