@@ -10,7 +10,7 @@ class CustomNote extends StatelessWidget {
       width: 400,
       height: 200,
       decoration: BoxDecoration(
-        color: const Color.fromARGB(116, 231, 191, 71),
+        color: Color.fromARGB(116, 244, 121, 39),
         borderRadius: BorderRadius.circular(16),
       ),
       child: CustomListTile(
